@@ -1,0 +1,256 @@
+{
+  "generator": "transport (school transport assignment workflow)",
+  "generator_version": "1.0.0",
+  "command": "python -m transport generate --scale starter --seed 20261022 --out output/starter --formats csv,json,sql",
+  "seed": 20261022,
+  "scale": {
+    "name": "starter",
+    "students": 600,
+    "buses": 14,
+    "stops": 45,
+    "school_days": 30,
+    "ring_sectors": [
+      3,
+      4,
+      4
+    ],
+    "accessible_buses": 3,
+    "spare_regular": 1,
+    "spare_accessible": 1,
+    "anomalies_per_type": 3,
+    "capacity_events": 3,
+    "weather_days": 1,
+    "geo_scale": 0.65
+  },
+  "school_year": 2026,
+  "first_school_day": "2026-06-08",
+  "provenance": {
+    "external_data_used": false,
+    "sources": [],
+    "statement": "All records are synthetic and produced by this generator from a fixed seed. No public or personal dataset was downloaded, copied or sampled. Coordinates are on an abstract km plane, phone numbers use the unassigned +999 prefix, e-mail uses the RFC 2606 reserved domain example.org, addresses contain the marker 'Synth Street'.",
+    "license": "Generated data may be freely redistributed (no third-party rights)."
+  },
+  "runtime": {
+    "python": "3.10.12",
+    "platform": "Linux",
+    "seconds": 3.0
+  },
+  "files": [
+    {
+      "path": "data/csv/address_zone.csv",
+      "bytes": 1072,
+      "rows": 11,
+      "sha256": "55ad6decafd32881d58503cbf72649c2d86e14ef73b99d42c498ef6a452fca92"
+    },
+    {
+      "path": "data/csv/assignment.csv",
+      "bytes": 96286,
+      "rows": 600,
+      "sha256": "1528a18fd7e88459eb8c4d92ef87a31614b256218095ff0897c75d06263decf1"
+    },
+    {
+      "path": "data/csv/assignment_event.csv",
+      "bytes": 84620,
+      "rows": 647,
+      "sha256": "af7a03bd35549fe9e8fdff2186babba2c5cc58c59a62602c332e6b5f2ffbb9a5"
+    },
+    {
+      "path": "data/csv/attendance_event.csv",
+      "bytes": 1428667,
+      "rows": 11497,
+      "sha256": "21ec74931fbda1545d6a55e08e2834f70b6e599ee51501975a70b89b6e39d278"
+    },
+    {
+      "path": "data/csv/bus.csv",
+      "bytes": 1255,
+      "rows": 14,
+      "sha256": "de3206048f56c0fdcd4993c6aafdf7a799f3b8cd21951e0dd05868cadf7edfbe"
+    },
+    {
+      "path": "data/csv/bus_capacity_event.csv",
+      "bytes": 628,
+      "rows": 6,
+      "sha256": "b2b9fb695b73fa9cc6ff06cf7666ea6651a0d5f75271281ec58332b224df8521"
+    },
+    {
+      "path": "data/csv/driver.csv",
+      "bytes": 1166,
+      "rows": 15,
+      "sha256": "1da46ad28c84717230035313d91687d3a8427b0e17cffa688c94990aa3d0fef0"
+    },
+    {
+      "path": "data/csv/guardian_contact.csv",
+      "bytes": 139974,
+      "rows": 1146,
+      "sha256": "309199358c407b7e8da6e8f6e55ef34c69530bb3a2204346663f73a5a9fd9c86"
+    },
+    {
+      "path": "data/csv/notification.csv",
+      "bytes": 303512,
+      "rows": 1346,
+      "sha256": "fef8d506b3ccdb9c04e33e0cb96461872c04b16a0c06953787e91297cff713f7"
+    },
+    {
+      "path": "data/csv/route.csv",
+      "bytes": 1838,
+      "rows": 10,
+      "sha256": "dba7ec84d198ce91b2b656d5c1517aa77f7d40f2258d4b452fb64468edef3968"
+    },
+    {
+      "path": "data/csv/route_candidate.csv",
+      "bytes": 4573,
+      "rows": 30,
+      "sha256": "1105175b9567d4500c3048765960204635c23ac68065a5116affd60db67455ac"
+    },
+    {
+      "path": "data/csv/route_disruption.csv",
+      "bytes": 1843,
+      "rows": 17,
+      "sha256": "0012873d6a50d28734fbad8df69d1c92f972e977397afc0aff5e58e58c1d73b0"
+    },
+    {
+      "path": "data/csv/route_stop.csv",
+      "bytes": 4186,
+      "rows": 42,
+      "sha256": "1ce81331ad5a88e175ba6d7fe0b2e362c739ac0b5fb3b4806e22addf6c345a5c"
+    },
+    {
+      "path": "data/csv/school_day.csv",
+      "bytes": 657,
+      "rows": 30,
+      "sha256": "a79b3908bf2ccd621607d5d1b576ff5c3e0e7e852b2fe7d22a79b489239e7c4f"
+    },
+    {
+      "path": "data/csv/stop.csv",
+      "bytes": 5447,
+      "rows": 45,
+      "sha256": "5f15e3c665ef22f4cdc3f705924a76f193b65c46da00b470dac47306d894597f"
+    },
+    {
+      "path": "data/csv/student.csv",
+      "bytes": 95857,
+      "rows": 600,
+      "sha256": "456d357b4b6ccb30d53e9dcf768682af3abd7e91a6343acb030d3873cda38190"
+    },
+    {
+      "path": "data/json/address_zone.json",
+      "bytes": 3180,
+      "rows": null,
+      "sha256": "226debf9d9b750a68ca36a25c8b3df7d9ae7747c39ccea1b67940abc1b3f22d3"
+    },
+    {
+      "path": "data/json/assignment.json",
+      "bytes": 282363,
+      "rows": null,
+      "sha256": "82068b80c9dabde714931dbafee63a008cb063c013fe1b40c20e6d8725137ad3"
+    },
+    {
+      "path": "data/json/assignment_event.json",
+      "bytes": 204870,
+      "rows": null,
+      "sha256": "d381a63106587a854cf7a36c02aea15e45f80a79f27ae16aa28d5ff4c026306f"
+    },
+    {
+      "path": "data/json/attendance_event.json",
+      "bytes": 3881167,
+      "rows": null,
+      "sha256": "8675cdc192d94b2b255f6f9a745bd668e4be86997076361363973c983aa19202"
+    },
+    {
+      "path": "data/json/bus.json",
+      "bytes": 3570,
+      "rows": null,
+      "sha256": "1f1830b696a13ecc9dd3847aaba33641cccc8b7dbb3b48ee962ccb77c3eb1b15"
+    },
+    {
+      "path": "data/json/bus_capacity_event.json",
+      "bytes": 1354,
+      "rows": null,
+      "sha256": "ccd546447d423eb30b3d6532e38ea5abe134964c31420d45f0a9253ee3332dce"
+    },
+    {
+      "path": "data/json/driver.json",
+      "bytes": 2976,
+      "rows": null,
+      "sha256": "c1d04ab6881f9f6649cfaeb29e91387bbb66fce57d35c65f30ff6f0357448e19"
+    },
+    {
+      "path": "data/json/guardian_contact.json",
+      "bytes": 380410,
+      "rows": null,
+      "sha256": "a71478190ce4d7d64d2791a9294cd5f7f11afe761ffbfd03785b271129ce28c2"
+    },
+    {
+      "path": "data/json/notification.json",
+      "bytes": 586531,
+      "rows": null,
+      "sha256": "b8a172baa38316be54f1de63e183a5fe7c248ad6791fd298b1a68c8c0b56724d"
+    },
+    {
+      "path": "data/json/route.json",
+      "bytes": 5141,
+      "rows": null,
+      "sha256": "d41acb92d1c168e6c1bc43bcea9e6c1334685bc878aa379a1f9634a343478b12"
+    },
+    {
+      "path": "data/json/route_candidate.json",
+      "bytes": 9619,
+      "rows": null,
+      "sha256": "5f0402b8bf101c636e6a3c1830b5afae4580354771e81a867303f034bcaede71"
+    },
+    {
+      "path": "data/json/route_disruption.json",
+      "bytes": 5219,
+      "rows": null,
+      "sha256": "4d472b7c9844ec0c1cd705b4c136ff791526d2dacc720b2112c60590a82e18fc"
+    },
+    {
+      "path": "data/json/route_stop.json",
+      "bytes": 12674,
+      "rows": null,
+      "sha256": "3ab7f4fb6a0ac546d7e3d388d3ac1b054dfb8ac38b559b2000ea7d3cfce08a55"
+    },
+    {
+      "path": "data/json/school_day.json",
+      "bytes": 2214,
+      "rows": null,
+      "sha256": "9059106d829598e936d31a9374085c9d0828445ae596d039d8734e849663a331"
+    },
+    {
+      "path": "data/json/stop.json",
+      "bytes": 13483,
+      "rows": null,
+      "sha256": "b98288c4818195d26b30b6e4460683013ae2009bbd139e68cb6cbe1fec3eb98e"
+    },
+    {
+      "path": "data/json/student.json",
+      "bytes": 303762,
+      "rows": null,
+      "sha256": "fb172b47724096dd51d2606d76e101d31dd31918571176914dd7e455fb3db995"
+    },
+    {
+      "path": "data/sql/schema.sql",
+      "bytes": 13377,
+      "rows": null,
+      "sha256": "d188f83a8fd332a87446270e9473ee5d12ccf167f139eba010f70e4ef9ff94b6"
+    },
+    {
+      "path": "data/sql/seed.sql",
+      "bytes": 2796399,
+      "rows": null,
+      "sha256": "5d30ee01dc86f59c2a9cc7261fda4da8b826aaaa17d10487851bcfe135a7aa67"
+    },
+    {
+      "path": "ground_truth/ground_truth.csv",
+      "bytes": 5094,
+      "rows": 15,
+      "sha256": "05350685c371f5397b03086b4f9b8f6278c23b9cd0439c1ab1877075c3d298a5"
+    },
+    {
+      "path": "ground_truth/ground_truth.json",
+      "bytes": 8609,
+      "rows": null,
+      "sha256": "36a5995ab765a9b82749ae84860f5f02938fdad4f985229e9165f25abd6c8075"
+    }
+  ]
+}

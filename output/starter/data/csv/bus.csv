@@ -1,0 +1,15 @@
+bus_id,registration_code,bus_type,base_seated_capacity,wheelchair_positions,is_accessible,fleet_role,status,depot_zone_id,commissioned_on
+BUS-000001,SYN-1001-BH,standard,60,0,false,route,in_service,ZONE-0005,2025-02-20
+BUS-000002,SYN-1002-CO,standard,60,0,false,route,in_service,ZONE-0006,2025-05-10
+BUS-000003,SYN-1003-DV,midi,48,0,false,spare,in_service,ZONE-0007,2017-03-06
+BUS-000004,SYN-1004-EC,midi,48,0,false,spare,in_service,ZONE-0004,2017-03-11
+BUS-000005,SYN-1005-FJ,large,72,0,false,route,in_service,ZONE-0005,2025-01-27
+BUS-000006,SYN-1006-GQ,large,72,0,false,route,in_service,ZONE-0006,2022-04-18
+BUS-000007,SYN-1007-HX,accessible,28,4,true,route,in_service,ZONE-0007,2023-07-16
+BUS-000008,SYN-1008-IE,large,72,0,false,route,in_service,ZONE-0004,2018-02-19
+BUS-000009,SYN-1009-JL,standard,60,0,false,route,in_service,ZONE-0005,2017-02-15
+BUS-000010,SYN-1010-KS,standard,60,0,false,route,in_service,ZONE-0006,2025-08-23
+BUS-000011,SYN-1011-LZ,accessible,28,4,true,route,in_service,ZONE-0007,2018-09-16
+BUS-000012,SYN-1012-MG,accessible,28,4,true,spare,in_service,ZONE-0004,2025-04-27
+BUS-000013,SYN-1013-NN,large,72,0,false,spare,in_service,ZONE-0005,2025-10-14
+BUS-000014,SYN-1014-OU,standard,60,0,false,route,in_service,ZONE-0006,2024-02-01

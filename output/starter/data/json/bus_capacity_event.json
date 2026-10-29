@@ -1,0 +1,8 @@
+[
+{"capacity_event_id":"BCE-2026-000001","bus_id":"BUS-000005","event_type":"SEATS_OUT_OF_SERVICE","previous_capacity":72,"new_capacity":37,"effective_from":"2026-06-17","effective_to":"2026-06-29","recorded_by":"support_staff"},
+{"capacity_event_id":"BCE-2026-000002","bus_id":"BUS-000008","event_type":"REPLACED_SMALLER","previous_capacity":72,"new_capacity":48,"effective_from":"2026-06-22","effective_to":"2026-07-06","recorded_by":"support_staff"},
+{"capacity_event_id":"BCE-2026-000003","bus_id":"BUS-000009","event_type":"SEATS_OUT_OF_SERVICE","previous_capacity":60,"new_capacity":56,"effective_from":"2026-06-22","effective_to":"2026-07-14","recorded_by":"support_staff"},
+{"capacity_event_id":"BCE-2026-000004","bus_id":"BUS-000006","event_type":"SEATS_OUT_OF_SERVICE","previous_capacity":72,"new_capacity":15,"effective_from":"2026-06-29","effective_to":"2026-07-14","recorded_by":"support_staff"},
+{"capacity_event_id":"BCE-2026-000005","bus_id":"BUS-000001","event_type":"SEATS_OUT_OF_SERVICE","previous_capacity":60,"new_capacity":46,"effective_from":"2026-07-03","effective_to":"2026-07-17","recorded_by":"support_staff"},
+{"capacity_event_id":"BCE-2026-000006","bus_id":"BUS-000014","event_type":"REPLACED_LARGER","previous_capacity":60,"new_capacity":72,"effective_from":"2026-07-09","effective_to":null,"recorded_by":"support_staff"}
+]

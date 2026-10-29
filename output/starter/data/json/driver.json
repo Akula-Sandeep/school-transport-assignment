@@ -1,0 +1,17 @@
+[
+{"driver_id":"DRV-000001","display_name":"Driver Das A.","license_class":"PSV-HEAVY","license_expiry":"2031-09-27","accessible_trained":false,"employment_status":"active","hired_on":"2012-06-17"},
+{"driver_id":"DRV-000002","display_name":"Driver Khan B.","license_class":"PSV-HEAVY","license_expiry":"2030-10-31","accessible_trained":true,"employment_status":"active","hired_on":"2012-03-19"},
+{"driver_id":"DRV-000003","display_name":"Driver Joshi C.","license_class":"PSV-HEAVY","license_expiry":"2028-09-16","accessible_trained":false,"employment_status":"active","hired_on":"2011-09-29"},
+{"driver_id":"DRV-000004","display_name":"Driver Pillai D.","license_class":"PSV-HEAVY","license_expiry":"2026-09-09","accessible_trained":false,"employment_status":"active","hired_on":"2022-02-13"},
+{"driver_id":"DRV-000005","display_name":"Driver Roy E.","license_class":"PSV-HEAVY","license_expiry":"2027-09-30","accessible_trained":false,"employment_status":"active","hired_on":"2015-05-19"},
+{"driver_id":"DRV-000006","display_name":"Driver Reddy F.","license_class":"PSV-HEAVY","license_expiry":"2027-05-02","accessible_trained":true,"employment_status":"active","hired_on":"2025-10-17"},
+{"driver_id":"DRV-000007","display_name":"Driver Das G.","license_class":"PSV-HEAVY","license_expiry":"2029-08-28","accessible_trained":true,"employment_status":"active","hired_on":"2017-07-15"},
+{"driver_id":"DRV-000008","display_name":"Driver Pillai H.","license_class":"PSV-HEAVY","license_expiry":"2027-10-08","accessible_trained":true,"employment_status":"active","hired_on":"2021-06-26"},
+{"driver_id":"DRV-000009","display_name":"Driver Mehta I.","license_class":"PSV-HEAVY","license_expiry":"2029-03-01","accessible_trained":false,"employment_status":"active","hired_on":"2014-12-04"},
+{"driver_id":"DRV-000010","display_name":"Driver Shah J.","license_class":"PSV-HEAVY","license_expiry":"2031-02-28","accessible_trained":true,"employment_status":"active","hired_on":"2018-02-16"},
+{"driver_id":"DRV-000011","display_name":"Driver Kumar K.","license_class":"PSV-HEAVY","license_expiry":"2029-01-21","accessible_trained":false,"employment_status":"active","hired_on":"2014-12-29"},
+{"driver_id":"DRV-000012","display_name":"Driver Patel L.","license_class":"PSV-HEAVY","license_expiry":"2029-05-03","accessible_trained":false,"employment_status":"active","hired_on":"2023-06-19"},
+{"driver_id":"DRV-000013","display_name":"Driver Menon M.","license_class":"PSV-HEAVY","license_expiry":"2031-06-03","accessible_trained":false,"employment_status":"active","hired_on":"2024-09-13"},
+{"driver_id":"DRV-000014","display_name":"Driver Kumar N.","license_class":"PSV-HEAVY","license_expiry":"2029-07-21","accessible_trained":false,"employment_status":"active","hired_on":"2024-03-17"},
+{"driver_id":"DRV-000015","display_name":"Driver Kumar O.","license_class":"PSV-HEAVY","license_expiry":"2030-06-03","accessible_trained":true,"employment_status":"active","hired_on":"2020-01-28"}
+]

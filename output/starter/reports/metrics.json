@@ -1,0 +1,314 @@
+{
+  "volumes": {
+    "school_day": 30,
+    "address_zone": 11,
+    "stop": 45,
+    "bus": 14,
+    "driver": 15,
+    "student": 600,
+    "guardian_contact": 1146,
+    "route": 10,
+    "route_candidate": 30,
+    "route_stop": 42,
+    "assignment": 600,
+    "assignment_event": 647,
+    "bus_capacity_event": 6,
+    "route_disruption": 17,
+    "attendance_event": 11497,
+    "notification": 1346
+  },
+  "distributions": {
+    "students_by_grade": {
+      "KG": 59,
+      "1": 58,
+      "2": 47,
+      "3": 42,
+      "4": 60,
+      "5": 35,
+      "6": 45,
+      "7": 33,
+      "8": 46,
+      "9": 61,
+      "10": 39,
+      "11": 32,
+      "12": 43
+    },
+    "students_by_zone_type": {
+      "suburban": 224,
+      "urban": 300,
+      "rural": 76
+    },
+    "mobility_aid": {
+      "none": 588,
+      "walker": 6,
+      "other": 3,
+      "wheelchair": 3
+    },
+    "midyear_enrollments": 22,
+    "withdrawals": 8,
+    "stops_by_approval": {
+      "approved": 33,
+      "pending": 11,
+      "rejected": 1
+    },
+    "bus_types": {
+      "standard": 5,
+      "midi": 2,
+      "large": 4,
+      "accessible": 3
+    },
+    "bus_fleet_roles": {
+      "route": 10,
+      "spare": 4
+    }
+  },
+  "assignment": {
+    "decisions": {
+      "assigned": 396,
+      "ineligible": 112,
+      "waitlisted": 59,
+      "opted_out": 33
+    },
+    "decision_reasons": {
+      "ASSIGNED_NEAREST_STOP": 371,
+      "INELIGIBLE_WALK_ZONE": 112,
+      "WAITLIST_NO_STOP_IN_RANGE": 46,
+      "OPTED_OUT_GUARDIAN": 33,
+      "ASSIGNED_WINDOW_EXCEPTION": 14,
+      "MIDYEAR_ASSIGNED": 9,
+      "ASSIGNED_ALT_STOP_FOR_WINDOW": 2,
+      "WAITLIST_NO_CAPACITY": 7,
+      "WAITLIST_ADDRESS_PENDING": 5,
+      "WAITLIST_NO_ACCESSIBLE_STOP": 1
+    },
+    "assignment_rate_pct_of_eligible": 87.03,
+    "final_status": {
+      "active": 396,
+      "ineligible": 109,
+      "waitlisted": 54,
+      "opted_out": 33,
+      "ended": 8
+    },
+    "pickup_window_compliance_pct": 96.46,
+    "accessible_need_students": 7,
+    "accessible_need_assigned": 6,
+    "accessible_need_assigned_on_accessible_route_pct": 100.0,
+    "ride_time_min": {
+      "mean": 24.69,
+      "p50": 24,
+      "p95": 40,
+      "max": 52,
+      "min": 7
+    },
+    "walk_distance_m": {
+      "mean": 273.7,
+      "p50": 232,
+      "p95": 576,
+      "max": 1062,
+      "min": 0
+    },
+    "events_by_type": {
+      "ASSIGNED": 415,
+      "INELIGIBLE": 112,
+      "WAITLISTED": 74,
+      "OPTED_OUT": 33,
+      "ENDED": 8,
+      "REASSIGNED": 5
+    },
+    "events_by_reason": {
+      "ASSIGNED_NEAREST_STOP": 371,
+      "INELIGIBLE_WALK_ZONE": 112,
+      "WAITLIST_NO_STOP_IN_RANGE": 46,
+      "OPTED_OUT_GUARDIAN": 33,
+      "ASSIGNED_WINDOW_EXCEPTION": 14,
+      "ASSIGNED_ALT_STOP_FOR_WINDOW": 2,
+      "WAITLIST_ADDRESS_PENDING": 5,
+      "WAITLIST_NO_ACCESSIBLE_STOP": 1,
+      "MIDYEAR_ASSIGNED": 9,
+      "STUDENT_WITHDRAWN": 8,
+      "WAITLIST_CAPACITY_REDUCED": 15,
+      "MANUAL_OVERRIDE": 5,
+      "WAITLIST_NO_CAPACITY": 7,
+      "ASSIGNED_FROM_WAITLIST": 19
+    }
+  },
+  "routing": {
+    "routes": 10,
+    "routes_by_service_type": {
+      "regular": 8,
+      "accessible": 2
+    },
+    "utilization_pct": {
+      "mean": 62.2,
+      "p50": 68.3,
+      "p95": 91.7,
+      "max": 91.7,
+      "min": 7.1
+    },
+    "route_duration_min": {
+      "mean": 38.22,
+      "p50": 36.3,
+      "p95": 52.4,
+      "max": 52.4,
+      "min": 26.7
+    },
+    "route_distance_km": {
+      "mean": 16.61,
+      "p50": 16.967,
+      "p95": 25.952,
+      "max": 25.952,
+      "min": 7.988
+    },
+    "stops_per_route": {
+      "mean": 4.2,
+      "p50": 4,
+      "p95": 7,
+      "max": 7,
+      "min": 2
+    },
+    "candidates_evaluated": 30,
+    "selected_by_method": {
+      "radial_inbound": 9,
+      "two_opt": 1
+    },
+    "infeasible_candidates": 2,
+    "capacity_events": {
+      "SEATS_OUT_OF_SERVICE": 4,
+      "REPLACED_SMALLER": 1,
+      "REPLACED_LARGER": 1
+    }
+  },
+  "attendance": {
+    "events": 11497,
+    "status_counts": {
+      "absent_reported": 625,
+      "boarded": 10102,
+      "boarded_late": 151,
+      "missed_pickup": 326,
+      "no_show": 293
+    },
+    "absence_rate_pct": 7.98,
+    "reported_absence_share_pct": 68.08,
+    "on_time_pickup_rate_pct": 95.49,
+    "late_pickup_rate_pct": 1.43,
+    "missed_pickup_rate_pct": 3.08,
+    "missed_pickups_with_disruption_pct": 100.0,
+    "delay_min_when_bus_ran": {
+      "mean": 1.12,
+      "p50": 0,
+      "p95": 4,
+      "max": 25,
+      "min": 0
+    }
+  },
+  "disruptions": {
+    "total": 17,
+    "by_type": {
+      "traffic_delay": 8,
+      "weather": 9
+    },
+    "by_resolution": {
+      "delayed_service": 11,
+      "cancelled": 6
+    },
+    "disruption_rate_pct_of_route_days": 5.94
+  },
+  "notifications": {
+    "total": 1346,
+    "by_type": {
+      "ASSIGNMENT_CONFIRMED": 401,
+      "WINDOW_EXCEPTION": 14,
+      "WAITLIST_NOTICE": 74,
+      "NO_SHOW": 293,
+      "ROUTE_DELAY": 228,
+      "SERVICE_ENDED": 5,
+      "REASSIGNMENT_NOTICE": 5,
+      "MISSED_PICKUP": 114,
+      "SERVICE_CANCELLED": 212
+    },
+    "by_delivery_status": {
+      "delivered": 1338,
+      "bounced": 1,
+      "suppressed": 6,
+      "failed": 1
+    },
+    "by_channel": {
+      "sms": 688,
+      "app_push": 417,
+      "email": 235,
+      "none": 6
+    },
+    "suppressed_no_valid_contact_pct": 0.45
+  },
+  "contacts": {
+    "total": 1146,
+    "per_student": {
+      "2": 374,
+      "1": 142,
+      "3": 80,
+      "4": 4
+    },
+    "status": {
+      "active": 1106,
+      "bounced": 13,
+      "inactive": 27
+    },
+    "unusable_on_first_day_pct": 4.19
+  },
+  "anomaly_detection": {
+    "capacity_exceeded": {
+      "labelled": 3,
+      "detected": 3,
+      "true_positive": 3,
+      "false_positive": 0,
+      "false_negative": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "incompatible_route": {
+      "labelled": 3,
+      "detected": 3,
+      "true_positive": 3,
+      "false_positive": 0,
+      "false_negative": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "impossible_travel_time": {
+      "labelled": 3,
+      "detected": 3,
+      "true_positive": 3,
+      "false_positive": 0,
+      "false_negative": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "notification_invalid_contact": {
+      "labelled": 3,
+      "detected": 3,
+      "true_positive": 3,
+      "false_positive": 0,
+      "false_negative": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "unapproved_address_exposed": {
+      "labelled": 3,
+      "detected": 3,
+      "true_positive": 3,
+      "false_positive": 0,
+      "false_negative": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "overall": {
+      "labelled": 15,
+      "detected": 15,
+      "true_positive": 15,
+      "false_positive": 0,
+      "false_negative": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    }
+  }
+}

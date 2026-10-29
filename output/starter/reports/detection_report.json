@@ -1,0 +1,165 @@
+{
+  "evaluation": {
+    "capacity_exceeded": {
+      "labelled": 3,
+      "detected": 3,
+      "true_positive": 3,
+      "false_positive": 0,
+      "false_negative": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "incompatible_route": {
+      "labelled": 3,
+      "detected": 3,
+      "true_positive": 3,
+      "false_positive": 0,
+      "false_negative": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "impossible_travel_time": {
+      "labelled": 3,
+      "detected": 3,
+      "true_positive": 3,
+      "false_positive": 0,
+      "false_negative": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "notification_invalid_contact": {
+      "labelled": 3,
+      "detected": 3,
+      "true_positive": 3,
+      "false_positive": 0,
+      "false_negative": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "unapproved_address_exposed": {
+      "labelled": 3,
+      "detected": 3,
+      "true_positive": 3,
+      "false_positive": 0,
+      "false_negative": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "overall": {
+      "labelled": 15,
+      "detected": 15,
+      "true_positive": 15,
+      "false_positive": 0,
+      "false_negative": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    }
+  },
+  "findings": [
+    {
+      "issue_type": "capacity_exceeded",
+      "entity_table": "route",
+      "entity_id": "ROUTE-2026-000001",
+      "first_date": "2026-06-17",
+      "evidence": "9 service days over capacity; first 2026-06-17 load 41 > 37 seats on BUS-000005"
+    },
+    {
+      "issue_type": "capacity_exceeded",
+      "entity_table": "route",
+      "entity_id": "ROUTE-2026-000002",
+      "first_date": "2026-06-29",
+      "evidence": "12 service days over capacity; first 2026-06-29 load 19 > 15 seats on BUS-000006"
+    },
+    {
+      "issue_type": "capacity_exceeded",
+      "entity_table": "route",
+      "entity_id": "ROUTE-2026-000004",
+      "first_date": "2026-07-03",
+      "evidence": "11 service days over capacity; first 2026-07-03 load 53 > 46 seats on BUS-000001"
+    },
+    {
+      "issue_type": "impossible_travel_time",
+      "entity_table": "route_stop",
+      "entity_id": "RS-2026-000006",
+      "first_date": "2026-06-08",
+      "evidence": "5.202 km in 0.5 min = 624 km/h"
+    },
+    {
+      "issue_type": "impossible_travel_time",
+      "entity_table": "route_stop",
+      "entity_id": "RS-2026-000020",
+      "first_date": "2026-06-08",
+      "evidence": "9.204 km in 1.9 min = 291 km/h"
+    },
+    {
+      "issue_type": "impossible_travel_time",
+      "entity_table": "route_stop",
+      "entity_id": "RS-2026-000039",
+      "first_date": "2026-06-08",
+      "evidence": "15.486 km in 3.3 min = 282 km/h"
+    },
+    {
+      "issue_type": "incompatible_route",
+      "entity_table": "assignment_event",
+      "entity_id": "AEV-2026-000602",
+      "first_date": "2026-06-24",
+      "evidence": "STU-000119 (walker) on ROUTE-2026-000007 (regular) 2026-06-24..2026-07-17"
+    },
+    {
+      "issue_type": "incompatible_route",
+      "entity_table": "assignment_event",
+      "entity_id": "AEV-2026-000612",
+      "first_date": "2026-06-30",
+      "evidence": "STU-000400 (wheelchair) on ROUTE-2026-000001 (regular) 2026-06-30..2026-07-17"
+    },
+    {
+      "issue_type": "incompatible_route",
+      "entity_table": "assignment_event",
+      "entity_id": "AEV-2026-000628",
+      "first_date": "2026-07-07",
+      "evidence": "STU-000032 (walker) on ROUTE-2026-000005 (regular) 2026-07-07..2026-07-17"
+    },
+    {
+      "issue_type": "notification_invalid_contact",
+      "entity_table": "notification",
+      "entity_id": "NOT-2026-000006",
+      "first_date": "2026-06-01",
+      "evidence": "GC-000015: CONTACT_BOUNCED"
+    },
+    {
+      "issue_type": "notification_invalid_contact",
+      "entity_table": "notification",
+      "entity_id": "NOT-2026-000585",
+      "first_date": "2026-06-22",
+      "evidence": "GC-000640: CONTACT_INACTIVE"
+    },
+    {
+      "issue_type": "notification_invalid_contact",
+      "entity_table": "notification",
+      "entity_id": "NOT-2026-001121",
+      "first_date": "2026-07-08",
+      "evidence": "GC-000559: CONTACT_BELONGS_TO_OTHER_STUDENT"
+    },
+    {
+      "issue_type": "unapproved_address_exposed",
+      "entity_table": "notification",
+      "entity_id": "NOT-2026-000279",
+      "first_date": "2026-06-01",
+      "evidence": "residential address text in message"
+    },
+    {
+      "issue_type": "unapproved_address_exposed",
+      "entity_table": "route_stop",
+      "entity_id": "RS-2026-000017",
+      "first_date": "2026-06-08",
+      "evidence": "STOP-000017 is pending on ROUTE-2026-000004"
+    },
+    {
+      "issue_type": "unapproved_address_exposed",
+      "entity_table": "route_stop",
+      "entity_id": "RS-2026-000032",
+      "first_date": "2026-06-08",
+      "evidence": "STOP-000022 is pending on ROUTE-2026-000007"
+    }
+  ]
+}

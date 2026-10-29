@@ -1,0 +1,200 @@
+{
+  "passed": true,
+  "checks_total": 21,
+  "checks_failed": 0,
+  "row_counts": {
+    "school_day": 30,
+    "address_zone": 11,
+    "stop": 45,
+    "bus": 14,
+    "driver": 15,
+    "student": 600,
+    "guardian_contact": 1146,
+    "route": 10,
+    "route_candidate": 30,
+    "route_stop": 42,
+    "assignment": 600,
+    "assignment_event": 647,
+    "bus_capacity_event": 6,
+    "route_disruption": 17,
+    "notification": 1346,
+    "attendance_event": 11497
+  },
+  "attendance_status_counts": {
+    "absent_reported": 625,
+    "boarded": 10102,
+    "boarded_late": 151,
+    "missed_pickup": 326,
+    "no_show": 293
+  },
+  "checks": [
+    {
+      "check": "csv_header_and_types",
+      "category": "schema",
+      "status": "PASS",
+      "records_checked": 4559,
+      "violations": 0,
+      "examples": []
+    },
+    {
+      "check": "unique_constraints",
+      "category": "keys",
+      "status": "PASS",
+      "records_checked": 4559,
+      "violations": 0,
+      "examples": []
+    },
+    {
+      "check": "date_ordering_and_effective_dating",
+      "category": "dates",
+      "status": "PASS",
+      "records_checked": 4559,
+      "violations": 0,
+      "examples": []
+    },
+    {
+      "check": "derived_values_reconcile",
+      "category": "arithmetic",
+      "status": "PASS",
+      "records_checked": 652,
+      "violations": 0,
+      "examples": []
+    },
+    {
+      "check": "route_structure_and_candidates",
+      "category": "keys",
+      "status": "PASS",
+      "records_checked": 40,
+      "violations": 0,
+      "examples": []
+    },
+    {
+      "check": "assignment_lifecycle_transitions",
+      "category": "lifecycle",
+      "status": "PASS",
+      "records_checked": 647,
+      "violations": 0,
+      "examples": []
+    },
+    {
+      "check": "disruption_consistency",
+      "category": "operations",
+      "status": "PASS",
+      "records_checked": 17,
+      "violations": 0,
+      "examples": []
+    },
+    {
+      "check": "attendance_one_per_student_day",
+      "category": "lifecycle",
+      "status": "PASS",
+      "records_checked": 11497,
+      "violations": 0,
+      "examples": []
+    },
+    {
+      "check": "attendance_reflects_assignment_history",
+      "category": "lifecycle",
+      "status": "PASS",
+      "records_checked": 11497,
+      "violations": 0,
+      "examples": []
+    },
+    {
+      "check": "attendance_derived_fields",
+      "category": "arithmetic",
+      "status": "PASS",
+      "records_checked": 11497,
+      "violations": 0,
+      "examples": []
+    },
+    {
+      "check": "attendance_status_rules",
+      "category": "operations",
+      "status": "PASS",
+      "records_checked": 11497,
+      "violations": 0,
+      "examples": []
+    },
+    {
+      "check": "notification_per_exception_event",
+      "category": "operations",
+      "status": "PASS",
+      "records_checked": 11497,
+      "violations": 0,
+      "examples": []
+    },
+    {
+      "check": "notification_triggers_and_delivery",
+      "category": "operations",
+      "status": "PASS",
+      "records_checked": 1346,
+      "violations": 0,
+      "examples": []
+    },
+    {
+      "check": "required_fields_present",
+      "category": "schema",
+      "status": "PASS",
+      "records_checked": 16056,
+      "violations": 0,
+      "examples": []
+    },
+    {
+      "check": "enum_values_allowed",
+      "category": "schema",
+      "status": "PASS",
+      "records_checked": 16056,
+      "violations": 0,
+      "examples": []
+    },
+    {
+      "check": "id_and_format_patterns",
+      "category": "schema",
+      "status": "PASS",
+      "records_checked": 16056,
+      "violations": 0,
+      "examples": []
+    },
+    {
+      "check": "foreign_key_integrity",
+      "category": "keys",
+      "status": "PASS",
+      "records_checked": 16056,
+      "violations": 0,
+      "examples": []
+    },
+    {
+      "check": "primary_key_unique",
+      "category": "keys",
+      "status": "PASS",
+      "records_checked": 16056,
+      "violations": 0,
+      "examples": []
+    },
+    {
+      "check": "synthetic_and_minimised_contact_data",
+      "category": "privacy",
+      "status": "PASS",
+      "records_checked": 2492,
+      "violations": 0,
+      "examples": []
+    },
+    {
+      "check": "ground_truth_separate_and_resolvable",
+      "category": "ground_truth",
+      "status": "PASS",
+      "records_checked": 15,
+      "violations": 0,
+      "examples": []
+    },
+    {
+      "check": "csv_header_and_types_attendance",
+      "category": "schema",
+      "status": "PASS",
+      "records_checked": 11497,
+      "violations": 0,
+      "examples": []
+    }
+  ]
+}

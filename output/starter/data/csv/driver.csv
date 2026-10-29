@@ -1,0 +1,16 @@
+driver_id,display_name,license_class,license_expiry,accessible_trained,employment_status,hired_on
+DRV-000001,Driver Das A.,PSV-HEAVY,2031-09-27,false,active,2012-06-17
+DRV-000002,Driver Khan B.,PSV-HEAVY,2030-10-31,true,active,2012-03-19
+DRV-000003,Driver Joshi C.,PSV-HEAVY,2028-09-16,false,active,2011-09-29
+DRV-000004,Driver Pillai D.,PSV-HEAVY,2026-09-09,false,active,2022-02-13
+DRV-000005,Driver Roy E.,PSV-HEAVY,2027-09-30,false,active,2015-05-19
+DRV-000006,Driver Reddy F.,PSV-HEAVY,2027-05-02,true,active,2025-10-17
+DRV-000007,Driver Das G.,PSV-HEAVY,2029-08-28,true,active,2017-07-15
+DRV-000008,Driver Pillai H.,PSV-HEAVY,2027-10-08,true,active,2021-06-26
+DRV-000009,Driver Mehta I.,PSV-HEAVY,2029-03-01,false,active,2014-12-04
+DRV-000010,Driver Shah J.,PSV-HEAVY,2031-02-28,true,active,2018-02-16
+DRV-000011,Driver Kumar K.,PSV-HEAVY,2029-01-21,false,active,2014-12-29
+DRV-000012,Driver Patel L.,PSV-HEAVY,2029-05-03,false,active,2023-06-19
+DRV-000013,Driver Menon M.,PSV-HEAVY,2031-06-03,false,active,2024-09-13
+DRV-000014,Driver Kumar N.,PSV-HEAVY,2029-07-21,false,active,2024-03-17
+DRV-000015,Driver Kumar O.,PSV-HEAVY,2030-06-03,true,active,2020-01-28
